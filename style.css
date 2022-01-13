@@ -36,11 +36,11 @@ transform: scale(0.8);
 }
 
 .ms_bg-red{
-    background-color: red !important;
+    background-color: red;
 }
 
 .ms_bg-black{
-    background-color: #000 !important;
+    background-color: #000;
 }
 
 .ms_fs-9px{
