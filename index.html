@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 <body>
-<header>
+<header class="position-fixed w-100">
     <!-- top nav  -->
 <section id="top-nav">
     <nav class="navbar ms_bg-black py-0">
@@ -102,8 +102,8 @@
             </ul>
             <form class="d-flex ms_fs-13px">
                 <div class="dropdown">
-                    <button class="btn  dropdown-toggle ms_fs-13px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      My PLayStation
+                    <button class="btn  dropdown-toggle ms_fs-13px ps-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      La mia PLaystation
                     </button>
                     <button type="button" class="btn btn-sm btn-dark rounded-pill mx-2 ms_fs-13px">Accedi</button>                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -126,8 +126,10 @@
                         <!-- INIZIO MAIN  -->
 <main>
 
-    <section id="jumbotron" class="p-4">
-        <div class="container-fluid h-100">
+                        <!-- JUMBOTRON  -->
+
+    <section id="jumbotron" class="pb-4">
+        <div class="container-fluid h-100 px-5">
             <div class="row align-items-end">
                 <div class="col-4 mx-1 my-1 ">
                     <div class="card bg-transparent text-white" style="width: 18rem;">
@@ -145,11 +147,12 @@
     </section>
     
     
-    
+                                <!-- PRESENTAZIONE PLAYSTATION  -->
+
     <section id="presentazione" class="py-3">
         <div class="container  my-2 ">
             <div class="row  ">
-                <div class="col my-1 mx-1 overflow-hidden ">
+                <div class="col my-1 mx-1 ">
                     <img src="./img_6/returnal-listing-thumb-01-ps5.jpg" class="img-thumbnail ms_bradius-thumbnail border-primary border-2" alt="...">
                 </div>
 
@@ -180,40 +183,77 @@
 
             </div>
 
-            <div class="row bg-info debug-mid">
-                    <div class="col bg-warning mx-1 my-1">
-
+            <div class="row my-5">
+                    <div class="col mx-1 my-1 text-center">
+                        <p class="text-primary ms_fs-13px mb-0">PLAY HAS NO LIMITS</p>
+                        <h2 class="my-0">Ecco la PlayStation 5</h2>
+                        <p class="my-4">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                     </div>
             </div>
 
-            <div class="row bg-info debug-mid">
-                <div class="col bg-warning mx-1 my-1">
-
+            <div class="row">
+                <div class="col d-flex align-items-center mx-1 my-1">
+                        <div class="card bg-transparent text-black border-0 ">
+                            <div class="card-body ps-0">
+                              <h2 class="card-title ms_no-wrap mb-4 ">Console PlayStation 5</h2>
+                              <p class="card-text ms_fs-13px ">Sperimenta la nuova generazione di incredibili gioch PlayStation</p>
+                              <a href="#" class="btn btn-primary btn-sm  ms_fs-13px text-white rounded-pill">Maggiori informazioni</a>
+                            </div>
+                          </div>
                 </div>
-                <div class="col bg-warning mx-1 my-1">
-
+                <div class="col  mx-1 my-1">
+                    <img src="./img_6/playstation-5-thumb.png" class="img-fluid" alt="">
                 </div>
                 
             </div>
 
-            <div class="row bg-info debug-mid">
-                <div class="col bg-warning mx-1 my-1">
+            <div class="row">
+                <div class="col  my-1">
+                    <div class="card border-0">
+                        <img src="img_6/playstation-5-thumb.png" class="card-img-top border-0 img-thumbnail ms_scale-08" alt="...">
+                        <div class="card-body py-0">
+                          <p class="ms_fs-11px card-text text-center">Console PS5</p>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col  mx-1 my-1">
+                    <div class="card border-0">
+                        <img src="img_6/joypad-thumb.png" class="card-img-top border-0 img-thumbnail ms_scale-08" alt="...">
+                        <div class="card-body py-0">
+                          <p class="ms_fs-11px card-text text-center">Controller wireless <br> dual DualSense &trade; </p>
+                        </div>
+                      </div>
 
                 </div>
                 
-                <div class="col bg-warning mx-1 my-1">
+                <div class="col  mx-1 my-1">
+                    <div class="card border-0">
+                        <img src="img_6/headset-thumb.png" class="card-img-top border-0 img-thumbnail ms_scale-08" alt="...">
+                        <div class="card-body py-0">
+                          <p class="ms_fs-11px card-text text-center">Cuffie wireless con <br> microfono PULSE 3 &trade;</p>
+                        </div>
+                      </div>
 
                 </div>
                 
-                <div class="col bg-warning mx-1 my-1">
+                <div class="col  mx-1 my-1">
+                    <div class="card border-0">
+                        <img src="img_6/remote-thumb.png" class="card-img-top border-0 img-thumbnail ms_scale-08" alt="...">
+                        <div class="card-body py-0">
+                          <p class="ms_fs-11px card-text text-center">Telecomando Media</p>
+                        </div>
+                      </div>
 
                 </div>
                 
-                <div class="col bg-warning mx-1 my-1">
-
-                </div>
-                
-                <div class="col bg-warning mx-1 my-1">
+                <div class="col  mx-1 my-1">
+                    <div class="card border-0">
+                        <img src="img_6/camera-thumb.jpg" class="card-img-top border-0 img-thumbnail ms_scale-08" alt="...">
+                        <div class="card-body py-0">
+                          <p class="ms_fs-11px card-text text-center">Telecamera HD</p>
+                        </div>
+                      </div>
 
                 </div>
                 
@@ -224,7 +264,7 @@
     </section>
 
 
-    <section id="multiplayer">
+    <section class="ms_section-bg" id="multiplayer">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid">
 
@@ -240,7 +280,7 @@
     </section>
 
 
-    <section id="nuove-uscite">
+    <section class="ms_section-bg" id="nuove-uscite">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid">
                 <div class="col bg-warning mx-1 my-1">
@@ -306,7 +346,7 @@
     </section>
 
 
-    <section id="esplora-play">
+    <section class="ms_section-bg" id="esplora-play">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid">
                 <div class="col bg-warning mx-1 my-1">
@@ -336,7 +376,7 @@
     </section>
 
 
-    <section id="esplora-plus">
+    <section class="ms_section-bg" id="esplora-plus">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid">
                 <div class="col bg-warning mx-1 my-1">
@@ -354,7 +394,7 @@
     </section>
 
 
-    <section id="nuovi-sconti">
+    <section class="ms_section-bg" id="nuovi-sconti">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid">
                 <div class="col bg-warning mx-1 my-1">
@@ -381,7 +421,7 @@
     </section>
 
 
-    <section id="esplora-now">
+    <section class="ms_section-bg" id="esplora-now">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid">
                 <div class="col bg-warning mx-1 my-1">
@@ -400,7 +440,7 @@
     </section>
 
 
-    <section id="social">
+    <section class="ms_section-bg" id="social">
         <div class="container bg-primary py-2 my-2 ">
             <div class="row bg-info debug-mid"> 
                 <div class="col bg-warning mx-1 my-1">

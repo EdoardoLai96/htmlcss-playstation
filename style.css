@@ -12,7 +12,6 @@
 }
 .debug-mid{
     height: 350px;
-    margin: 7px 0;
 }
 .debug-tall{
     height: 600px;
@@ -58,7 +57,12 @@ font-size: 13px;}
 
 /* FINE LE MIE CLASSI  */
 
-section{
+
+header{
+    z-index: 9999999;
+}
+
+section.ms_section-bg{
 background-color: rgb(113, 219, 99);
 
 }
@@ -72,4 +76,8 @@ min-height: 600px;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
+}
+
+main{
+    padding-top: 80px;
 }
