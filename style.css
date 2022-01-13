@@ -1,0 +1,22 @@
+.debug-shortest{
+    height: 100px;
+    margin: 7px 0;
+}
+
+.debug-short{
+    height: 200px;
+    margin: 7px 0;
+}
+.debug-mid{
+    height: 350px;
+    margin: 7px 0;
+}
+.debug-tall{
+    height: 500px;
+    margin: 10px 0;
+}
+
+section{
+background-color: rgb(113, 219, 99);
+
+}
