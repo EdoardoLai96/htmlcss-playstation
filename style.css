@@ -24,5 +24,6 @@ background-color: rgb(113, 219, 99);
 .ms_bg-returnal{
 background-image: url("img_6/returnal-listing-thumb-01-ps5.jpg");
 background-size: cover;
+background-repeat: no-repeat;
 
 }
