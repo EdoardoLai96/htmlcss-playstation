@@ -35,6 +35,10 @@ transform: scale(0.8);
     white-space: nowrap;
 }
 
+.ms_bradius-thumbnail{
+    border-radius: 1.25rem;
+}
+
 .ms_bg-red{
     background-color: red;
 }
