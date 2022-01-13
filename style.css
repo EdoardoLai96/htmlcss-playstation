@@ -81,3 +81,8 @@ justify-content: flex-end;
 main{
     padding-top: 80px;
 }
+
+#multiplayer{
+    background-image: url("./img_6/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+}
