@@ -1,3 +1,6 @@
+
+/* LE MIE CLASSI  */
+
 .debug-shortest{
     height: 100px;
     margin: 7px 0;
@@ -12,18 +15,53 @@
     margin: 7px 0;
 }
 .debug-tall{
-    height: 500px;
+    height: 600px;
     margin: 10px 0;
 }
+
+.ms_scale-05{
+transform: scale(0.5);
+}
+
+.ms_scale-06{
+transform: scale(0.6);
+}
+
+.ms_scale-08{
+transform: scale(0.8);
+}
+
+.ms_no-wrap{
+    white-space: nowrap;
+}
+
+.ms_bg-red{
+    background-color: red !important;
+}
+
+.ms_fs-9px{
+font-size: 9px;}
+
+.ms_fs-11px{
+font-size: 11px;}
+
+.ms_fs-13px{
+font-size: 13px;}
+
+/* FINE LE MIE CLASSI  */
 
 section{
 background-color: rgb(113, 219, 99);
 
 }
 
-.ms_bg-returnal{
-background-image: url("img_6/returnal-listing-thumb-01-ps5.jpg");
+#jumbotron{
+background-image: url("img_6/jumbo-bg.png");
 background-size: cover;
 background-repeat: no-repeat;
-
+background-position: center;
+min-height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
 }
