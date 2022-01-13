@@ -39,6 +39,10 @@ transform: scale(0.8);
     background-color: red !important;
 }
 
+.ms_bg-black{
+    background-color: #000 !important;
+}
+
 .ms_fs-9px{
 font-size: 9px;}
 
