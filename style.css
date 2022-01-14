@@ -46,8 +46,20 @@ transform: scale(0.8);
     background-color: rgb(182, 182, 182);
 }
 
+.ms_bg-white{
+    background-color: #fff; 
+}
+
+.ms_bg-white.btn{
+    background-color: #fff !important; 
+}
+
 .ms_bg-black{
     background-color: #000;
+}
+
+.ms_bg-darkblue{
+    background-color: rgb(12, 11, 66);
 }
 
 .ms_fs-9px{
