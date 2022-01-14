@@ -71,6 +71,10 @@ font-size: 11px;}
 .ms_fs-13px{
 font-size: 13px;}
 
+.ms_h-mincon{
+height: min-content;
+}
+
 /* FINE LE MIE CLASSI  */
 
 
@@ -103,4 +107,9 @@ main{
     background-size: cover;
 }           
 
+
+footer{
+background-color: red;
+
+}
 
