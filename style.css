@@ -75,6 +75,10 @@ font-size: 13px;}
 height: min-content;
 }
 
+.ms_borderblue-0{
+    border-color: rgba(0, 0, 255, 0);
+}
+
 /* FINE LE MIE CLASSI  */
 
 
@@ -109,7 +113,18 @@ main{
 
 
 footer{
-background-color: red;
-
+background-color: rgb(11, 90, 180);
 }
 
+
+/* regole mie di hover  */
+
+
+
+.ms_offset-hover:hover{
+border-color: rgba(0, 0, 255, 0.7);
+transform: translate(0, -10%);
+transition: 0.3s;
+box-shadow: 0  5px 10px 0  rgba(0, 0, 0, 0.5);
+cursor: pointer;
+}
