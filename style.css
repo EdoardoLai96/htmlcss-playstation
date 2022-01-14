@@ -42,6 +42,10 @@ transform: scale(0.8);
     background-color: red;
 }
 
+.ms_bg-gray{
+    background-color: rgb(182, 182, 182);
+}
+
 .ms_bg-black{
     background-color: #000;
 }
@@ -85,4 +89,6 @@ main{
 #multiplayer{
     background-image: url("./img_6/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
-}
+}           
+
+
