@@ -38,6 +38,10 @@ transform: scale(0.8);
     border-radius: 1.25rem;
 }
 
+.ms_gray{
+    color: gray;
+}
+
 .ms_bg-red{
     background-color: red;
 }
@@ -128,3 +132,7 @@ transition: 0.3s;
 box-shadow: 0  5px 10px 0  rgba(0, 0, 0, 0.5);
 cursor: pointer;
 }
+
+
+.navbar-light .navbar-nav .nav-link:active{
+color: red;}
