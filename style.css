@@ -75,6 +75,9 @@ font-size: 11px;}
 .ms_fs-13px{
 font-size: 13px;}
 
+.ms_fs-40px{
+font-size: 40px;}
+
 .ms_h-mincon{
 height: min-content;
 }
@@ -165,6 +168,14 @@ background-color: rgb(11, 90, 180);
 animation-play-state: paused;
 }
 
+.ms_hover-underline{
+    text-decoration: none;
+}
+
+.ms_hover-underline:hover{
+    text-decoration: underline;
+}
+
 .ms_offset-hover:hover{
 border-color: rgba(0, 0, 255, 0.7);
 transform: translate(0, -10%);
@@ -180,7 +191,7 @@ border-width: 3px;
 opacity: 0.5;
 }
 
-.row .col.ms_borderblue-1:hover{
+.row .ms_borderblue-1:hover{
 border-bottom: 1px solid rgba(11, 90, 180, 1);
 border-width: 3px;
 opacity: 1;
@@ -205,32 +216,37 @@ ul.dropdown-menu{
 
 /* Animations  */
 
-.animation-test-1{
-    animation-name: slide-1;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate
-}
+@media screen and (min-width: 992px) {
 
-.animation-test-2{
-    animation-name: slide-2;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate
-}
 
-@keyframes slide-1{
-  from  { transform:translateY(5%);}
-  to  {transform:translateY(-5%);}
+    
+    .animation-test-1{
+        animation-name: slide-1;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate
+    }
+    
+    .animation-test-2{
+        animation-name: slide-2;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate
+    }
+    
+    @keyframes slide-1{
+        from  { transform:translateY(5%);}
+        to  {transform:translateY(-5%);}
+    }
+    
+    @keyframes slide-2{
+        from  { transform:translateY(-5%);}
+        to  {transform:translateY(5%);}
+    }
+    
 }
-
-@keyframes slide-2{
-  from  { transform:translateY(-5%);}
-  to  {transform:translateY(5%);}
-}
-
 /* .ms_row-animation{
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -263,4 +279,5 @@ ul.dropdown-menu{
     }
 
 }
+
 
