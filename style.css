@@ -83,6 +83,44 @@ height: min-content;
     border-color: rgba(0, 0, 255, 0);
 }
 
+.ms_outline-effect-light{
+    outline: 2px solid rgba(255, 255, 255, 0);
+    outline-offset: -4px;
+}
+
+.ms_outline-effect-light:hover{
+    outline: 2px solid rgba(255, 255, 255, 1);
+    outline-offset: -4px;
+    transition: 0.4s;
+}
+
+.ms_outline-effect-dark{
+    outline: 2px solid rgba(0, 0, 0, 0);
+    outline-offset: -4px;
+}
+
+.ms_outline-effect-dark:hover{
+    outline: 2px solid rgba(0, 0, 0, 1);
+    outline-offset: -4px;
+    transition: 0.4s;
+}
+
+.ms_outline-effect-blue{
+    outline: 2px solid rgba(24, 83, 192, 0);
+    outline-offset: -4px;
+}
+
+.ms_outline-effect-blue:hover{
+    outline: 2px solid rgb(32, 126, 202);
+    outline-offset: -4px;
+    transition: 0.4s;
+}
+
+.ms_cursor-pointer{
+    cursor: pointer;
+}
+
+
 /* FINE LE MIE CLASSI  */
 
 
@@ -134,5 +172,3 @@ cursor: pointer;
 }
 
 
-.navbar-light .navbar-nav .nav-link:active{
-color: red;}
